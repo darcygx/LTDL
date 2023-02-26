@@ -1,4 +1,4 @@
-# TSP-LTDL
+# TSP-LTDL (Updated)
 A Low-rank Tensor Dictionary Learning Method for Hyperspectral Image Denoising.
 # Code: A Low-rank Tensor Dictionary Learning Method for Hyperspectral Image Denoising
 Please see details at my supervisor's git https://github.com/wc253/LTDL
@@ -6,7 +6,7 @@ All matlab codes of the paper TSP2020 A Low-rank Tensor Dictionary Learning Meth
 ![pre_watercolors_MSI](https://github.com/wc253/LTDL/raw/master/result/pre_watercolors_MSI.png)
 # Datasets
 CAVE from [here](http://www.cs.columbia.edu/CAVE/databases/multispectral/)<br>
-ICVL from [here](http://icvl.cs.bgu.ac.il/hyperspectral/). We downsample the ICVL datasets by ```msi=msi(1:2:size(msi,1),1:2:size(msi,2), :)```.<br>
+ICVL from [here](http://icvl.cs.bgu.ac.il/hyperspectral/). We downsample the ICVL datasets by ```msi=msi(1:2:size(msi,1),1:2:size(msi,2), :)```. Note that the ICVL now has 200+ scenes, please use the current full dataset.<br>
 Jasper Ridge from [here](https://rslab.ut.ac.ir/data)<br>
 
 # Folder structure
